@@ -1,0 +1,41 @@
+/* CSS cho container của Pagination */
+.PaginationContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Khoảng cách với phần tử trên */
+  }
+  
+  /* CSS cho phần tử bao quanh toàn bộ thanh Pagination */
+  .pagination {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* CSS cho các nút Previous và Next */
+  .pagination li.previous,
+  .pagination li.next {
+    display: inline-block;
+    margin: 0 5px; /* Khoảng cách giữa các nút */
+  }
+  
+  .pagination li a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .pagination li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* CSS cho trang hiện tại */
+  .pagination li.active a {
+    background-color: #007bff; /* Màu nền khi trang này được chọn */
+    color: #fff; /* Màu chữ khi trang này được chọn */
+    border-color: #007bff;
+  }
+  
